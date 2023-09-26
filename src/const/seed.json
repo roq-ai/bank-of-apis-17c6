@@ -1,0 +1,2018 @@
+[
+  {
+    "financial_advisor": [
+      {
+        "id": "e4eb3a59-0f5f-4746-b17c-3d769eac9e61",
+        "advisor_name": "John Smith",
+        "contact_number": "1234567890",
+        "email": "john.smith@gmail.com",
+        "created_at": "2023-09-25T17:35:01.766Z",
+        "updated_at": "2023-09-26T00:30:55.366Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "034b3d09-6466-4b9f-bb19-ceaeaff3ef4c",
+        "advisor_name": "Jane Doe",
+        "contact_number": "0987654321",
+        "email": "jane.doe@yahoo.com",
+        "created_at": "2023-09-25T08:04:08.773Z",
+        "updated_at": "2023-09-25T08:38:13.085Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c04ddd93-2cb9-4d11-b22f-908918558762",
+        "advisor_name": "Michael Brown",
+        "contact_number": "9876543210",
+        "email": "michael.brown@hotmail.com",
+        "created_at": "2023-09-26T02:25:15.805Z",
+        "updated_at": "2023-09-26T03:48:56.816Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad543f70-f376-4578-bd68-39073365d752",
+        "advisor_name": "Sarah Jones",
+        "contact_number": "0123456789",
+        "email": "sarah.jones@gmail.com",
+        "created_at": "2023-09-26T06:40:25.368Z",
+        "updated_at": "2023-09-25T10:29:03.857Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "711f066c-78fe-4bef-a417-f6c1869abc21",
+        "advisor_name": "Robert Wilson",
+        "contact_number": "5432167890",
+        "email": "robert.wilson@yahoo.com",
+        "created_at": "2023-09-25T23:32:02.658Z",
+        "updated_at": "2023-09-25T20:55:08.453Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "credit_card": [
+      {
+        "id": "d5ac829b-326e-40af-b39c-b944ab8e4ddc",
+        "card_number": "1234 5678 9012 3456",
+        "expiry_date": "2023-09-26T06:52:05.007Z",
+        "cvv": 27777,
+        "due_date": "2023-09-25T10:07:26.960Z",
+        "maximum_limit": 10756,
+        "created_at": "2023-09-25T10:42:35.704Z",
+        "updated_at": "2023-09-25T19:04:18.485Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22201b78-4a44-4323-bc3d-5191d40f370a",
+        "card_number": "9876 5432 1098 7654",
+        "expiry_date": "2023-09-25T14:47:08.600Z",
+        "cvv": 73901,
+        "due_date": "2023-09-25T12:24:28.079Z",
+        "maximum_limit": 10777,
+        "created_at": "2023-09-26T03:43:41.636Z",
+        "updated_at": "2023-09-25T19:30:20.432Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62650f83-7cd4-4809-b6aa-996729f1dc00",
+        "card_number": "5432 1098 7654 3210",
+        "expiry_date": "2023-09-26T05:45:50.287Z",
+        "cvv": 1121,
+        "due_date": "2023-09-25T16:29:45.720Z",
+        "maximum_limit": 76948,
+        "created_at": "2023-09-25T19:28:29.914Z",
+        "updated_at": "2023-09-25T22:42:15.572Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f654e20b-be0e-4031-bf46-6f5f4a69c787",
+        "card_number": "9012 3456 7890 1234",
+        "expiry_date": "2023-09-25T10:56:43.103Z",
+        "cvv": 87446,
+        "due_date": "2023-09-25T10:18:59.824Z",
+        "maximum_limit": 97957,
+        "created_at": "2023-09-25T22:33:15.631Z",
+        "updated_at": "2023-09-25T23:27:33.453Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca4f41c7-b73b-4c7d-97f4-ac7a48704a06",
+        "card_number": "6789 0123 4567 8901",
+        "expiry_date": "2023-09-26T06:54:10.670Z",
+        "cvv": 66340,
+        "due_date": "2023-09-25T23:12:54.982Z",
+        "maximum_limit": 81108,
+        "created_at": "2023-09-25T20:04:03.768Z",
+        "updated_at": "2023-09-26T00:40:53.714Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "account": [
+      {
+        "id": "409360ae-8013-4275-9b5b-df2bb6c4e3e7",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 59427,
+        "created_at": "2023-09-25T17:23:24.993Z",
+        "updated_at": "2023-09-25T13:21:43.719Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90836fe0-06a2-45b2-8707-a4902b017784",
+        "account_number": "0987654321",
+        "account_type": "Checking",
+        "balance": 18524,
+        "created_at": "2023-09-25T08:06:06.009Z",
+        "updated_at": "2023-09-26T03:19:15.542Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf5598a6-1616-4303-b4ab-33bc449d6240",
+        "account_number": "9876543210",
+        "account_type": "Investment",
+        "balance": 57940,
+        "created_at": "2023-09-25T11:16:23.987Z",
+        "updated_at": "2023-09-26T05:07:31.773Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb11969e-42e0-462d-ab5d-eb089d3e3e10",
+        "account_number": "0123456789",
+        "account_type": "Credit",
+        "balance": 51568,
+        "created_at": "2023-09-25T16:08:24.293Z",
+        "updated_at": "2023-09-25T11:49:17.302Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ea83ef3-e820-4045-a308-b5bc9e6066f6",
+        "account_number": "5432167890",
+        "account_type": "Loan",
+        "balance": 43990,
+        "created_at": "2023-09-25T23:29:32.656Z",
+        "updated_at": "2023-09-25T09:18:56.716Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "85e2fb09-b734-470f-87a9-ed5d142fd22d",
+        "transaction_type": "Deposit",
+        "amount": 48327,
+        "transaction_date": "2023-09-25T16:16:33.077Z",
+        "created_at": "2023-09-26T00:07:10.384Z",
+        "updated_at": "2023-09-25T12:58:23.464Z",
+        "account_id": "4ea83ef3-e820-4045-a308-b5bc9e6066f6"
+      },
+      {
+        "id": "dc849be0-9409-4d95-80a8-7890fe6a243f",
+        "transaction_type": "Withdrawal",
+        "amount": 43420,
+        "transaction_date": "2023-09-25T13:03:44.261Z",
+        "created_at": "2023-09-25T08:44:06.451Z",
+        "updated_at": "2023-09-26T03:13:09.287Z",
+        "account_id": "cb11969e-42e0-462d-ab5d-eb089d3e3e10"
+      },
+      {
+        "id": "d47f7a89-220c-4588-b499-0f776328478a",
+        "transaction_type": "Transfer",
+        "amount": 78602,
+        "transaction_date": "2023-09-25T18:17:21.069Z",
+        "created_at": "2023-09-25T22:31:57.361Z",
+        "updated_at": "2023-09-25T12:47:44.982Z",
+        "account_id": "90836fe0-06a2-45b2-8707-a4902b017784"
+      },
+      {
+        "id": "319e2688-64c3-4363-a2ac-58dde377a27c",
+        "transaction_type": "Payment",
+        "amount": 33738,
+        "transaction_date": "2023-09-25T20:29:02.871Z",
+        "created_at": "2023-09-25T20:51:44.152Z",
+        "updated_at": "2023-09-25T11:13:59.013Z",
+        "account_id": "90836fe0-06a2-45b2-8707-a4902b017784"
+      },
+      {
+        "id": "1efe4a14-c66a-4509-9085-45f6d61e3338",
+        "transaction_type": "Refund",
+        "amount": 72167,
+        "transaction_date": "2023-09-25T13:26:06.574Z",
+        "created_at": "2023-09-25T19:58:57.910Z",
+        "updated_at": "2023-09-25T19:18:19.077Z",
+        "account_id": "409360ae-8013-4275-9b5b-df2bb6c4e3e7"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6ca50d03-8c88-4046-90f7-c5e781281591",
+        "email": "Sallie5@roq.tech",
+        "firstName": "Paula",
+        "lastName": "Hamill",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/494.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8be9d9d7-f2f7-48b6-a572-bf252dd9cdcc",
+        "email": "Giovanny.Mohr82@roq.tech",
+        "firstName": "Audreanne",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/47.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7e73482f-8879-47b3-bec6-ebfed1023a1c",
+        "email": "Deshaun71@roq.tech",
+        "firstName": "Nathanial",
+        "lastName": "McClure",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9202320",
+        "tenantId": null
+      },
+      {
+        "reference": "166e9e88-89a8-4e35-becb-460ae7201429",
+        "email": "Karolann_Botsford46@roq.tech",
+        "firstName": "Hazle",
+        "lastName": "Metz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86838985",
+        "tenantId": null
+      },
+      {
+        "reference": "4374c4ca-9e65-465a-a52f-1d3be1fb27f1",
+        "email": "Kim83@roq.tech",
+        "firstName": "Kameron",
+        "lastName": "Harber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48049389",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "financial_advisor": [
+      {
+        "id": "c2a8de4c-565f-48d6-a94f-332548376efe",
+        "advisor_name": "James Johnson",
+        "contact_number": "1234567890",
+        "email": "james.johnson@example.com",
+        "created_at": "2023-09-25T15:30:03.167Z",
+        "updated_at": "2023-09-25T17:08:08.991Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "544b6565-3f77-4c1a-aa1a-35f79e6c3263",
+        "advisor_name": "Emily Davis",
+        "contact_number": "9876543210",
+        "email": "emily.davis@example.com",
+        "created_at": "2023-09-26T02:29:43.599Z",
+        "updated_at": "2023-09-25T17:18:01.841Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ba44605-4990-495e-8004-98ad54a99a15",
+        "advisor_name": "Daniel Martinez",
+        "contact_number": "5555555555",
+        "email": "daniel.martinez@example.com",
+        "created_at": "2023-09-25T09:22:22.312Z",
+        "updated_at": "2023-09-26T05:35:37.174Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f15a9f8-89da-44d4-9999-528a26b45f88",
+        "advisor_name": "Olivia Anderson",
+        "contact_number": "9999999999",
+        "email": "olivia.anderson@example.com",
+        "created_at": "2023-09-25T22:16:38.164Z",
+        "updated_at": "2023-09-25T20:04:55.067Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e7d4ded-e173-46da-ad91-bfbeb3e2e7af",
+        "advisor_name": "William Thompson",
+        "contact_number": "1111111111",
+        "email": "william.thompson@example.com",
+        "created_at": "2023-09-25T20:12:47.115Z",
+        "updated_at": "2023-09-25T08:21:10.792Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "credit_card": [
+      {
+        "id": "f69804de-8c2f-4e37-8f50-cdd155690b72",
+        "card_number": "1234 5678 9012 3456",
+        "expiry_date": "2023-09-25T23:20:44.639Z",
+        "cvv": 20718,
+        "due_date": "2023-09-25T23:29:31.282Z",
+        "maximum_limit": 57131,
+        "created_at": "2023-09-25T13:56:33.248Z",
+        "updated_at": "2023-09-25T07:07:07.587Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9b2b878-c911-4864-b774-224cc145cf8f",
+        "card_number": "9876 5432 1098 7654",
+        "expiry_date": "2023-09-26T04:23:35.060Z",
+        "cvv": 33518,
+        "due_date": "2023-09-25T10:07:39.708Z",
+        "maximum_limit": 12139,
+        "created_at": "2023-09-25T23:18:55.530Z",
+        "updated_at": "2023-09-26T05:41:41.219Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be53a1d9-082e-4437-bd52-4ec2791244c3",
+        "card_number": "5555 5555 5555 5555",
+        "expiry_date": "2023-09-25T11:01:42.916Z",
+        "cvv": 74652,
+        "due_date": "2023-09-25T07:12:46.479Z",
+        "maximum_limit": 21390,
+        "created_at": "2023-09-25T10:22:42.010Z",
+        "updated_at": "2023-09-25T18:51:15.258Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d60a799-e74c-443d-9e77-1c97c390dda3",
+        "card_number": "9999 9999 9999 9999",
+        "expiry_date": "2023-09-25T18:05:26.532Z",
+        "cvv": 27307,
+        "due_date": "2023-09-25T14:06:15.575Z",
+        "maximum_limit": 40007,
+        "created_at": "2023-09-26T02:35:43.059Z",
+        "updated_at": "2023-09-26T06:47:55.501Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee470aa7-4fb9-44d9-9f71-dcf7a7b1e299",
+        "card_number": "1111 1111 1111 1111",
+        "expiry_date": "2023-09-26T04:24:51.122Z",
+        "cvv": 3418,
+        "due_date": "2023-09-25T16:41:06.871Z",
+        "maximum_limit": 38126,
+        "created_at": "2023-09-25T08:39:53.056Z",
+        "updated_at": "2023-09-25T12:49:11.313Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "account": [
+      {
+        "id": "e1086c55-1172-40ee-af02-9d2c83edf7aa",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 87830,
+        "created_at": "2023-09-25T19:19:08.048Z",
+        "updated_at": "2023-09-26T04:44:19.741Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d3e8f9b-9dd4-474c-818b-80ad70de5489",
+        "account_number": "9876543210",
+        "account_type": "Checking",
+        "balance": 7022,
+        "created_at": "2023-09-26T02:43:56.275Z",
+        "updated_at": "2023-09-25T22:06:51.352Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7d7c4f7-f629-4576-a69e-8d118bcc2002",
+        "account_number": "5555555555",
+        "account_type": "Credit",
+        "balance": 90965,
+        "created_at": "2023-09-25T16:39:41.998Z",
+        "updated_at": "2023-09-25T13:28:05.344Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "823b3333-95d7-4f8e-96fe-724c61c09f91",
+        "account_number": "9999999999",
+        "account_type": "Investment",
+        "balance": 4022,
+        "created_at": "2023-09-25T17:05:06.229Z",
+        "updated_at": "2023-09-26T03:57:41.924Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "afb07750-3404-4612-969b-350e942d9bde",
+        "account_number": "1111111111",
+        "account_type": "Loan",
+        "balance": 15042,
+        "created_at": "2023-09-25T21:10:58.790Z",
+        "updated_at": "2023-09-25T22:37:39.409Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "0798f86b-b5e6-4883-9f42-213bf3ed9b49",
+        "transaction_type": "Deposit",
+        "amount": 73637,
+        "transaction_date": "2023-09-26T06:26:13.194Z",
+        "created_at": "2023-09-25T20:04:13.288Z",
+        "updated_at": "2023-09-25T22:55:06.244Z",
+        "account_id": "d7d7c4f7-f629-4576-a69e-8d118bcc2002"
+      },
+      {
+        "id": "da302019-3da3-4fa9-a742-34b5845af48f",
+        "transaction_type": "Withdrawal",
+        "amount": 62044,
+        "transaction_date": "2023-09-25T11:21:18.222Z",
+        "created_at": "2023-09-25T07:11:40.627Z",
+        "updated_at": "2023-09-25T15:38:07.542Z",
+        "account_id": "e1086c55-1172-40ee-af02-9d2c83edf7aa"
+      },
+      {
+        "id": "eeca0f74-872a-4095-bcb1-28f73660d5f0",
+        "transaction_type": "Transfer",
+        "amount": 36391,
+        "transaction_date": "2023-09-25T15:06:17.901Z",
+        "created_at": "2023-09-26T03:19:01.225Z",
+        "updated_at": "2023-09-25T08:30:29.874Z",
+        "account_id": "0d3e8f9b-9dd4-474c-818b-80ad70de5489"
+      },
+      {
+        "id": "b71e782c-4652-4cb1-aa58-0afe2f53af12",
+        "transaction_type": "Payment",
+        "amount": 65045,
+        "transaction_date": "2023-09-26T06:53:53.681Z",
+        "created_at": "2023-09-26T01:44:23.252Z",
+        "updated_at": "2023-09-25T18:08:46.751Z",
+        "account_id": "823b3333-95d7-4f8e-96fe-724c61c09f91"
+      },
+      {
+        "id": "c8155e33-e25a-4458-8fed-4b30b6949cf3",
+        "transaction_type": "Refund",
+        "amount": 9778,
+        "transaction_date": "2023-09-26T05:28:38.901Z",
+        "created_at": "2023-09-26T02:08:57.573Z",
+        "updated_at": "2023-09-25T08:53:09.140Z",
+        "account_id": "d7d7c4f7-f629-4576-a69e-8d118bcc2002"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0c344354-f022-4d0e-b353-b996dcc9f0b3",
+        "email": "Emilio_Willms49@roq.tech",
+        "firstName": "Monserrat",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/243.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "28da25e4-ca92-4d58-9d6a-eb704e3f0cf4",
+        "email": "Fredrick.Monahan@roq.tech",
+        "firstName": "Ena",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10744940",
+        "tenantId": null
+      },
+      {
+        "reference": "6635b109-aa36-49db-8675-bb38dfd977a0",
+        "email": "Gwendolyn_Kuhn76@roq.tech",
+        "firstName": "Kari",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93971107",
+        "tenantId": null
+      },
+      {
+        "reference": "ec1ab378-e9d4-4e8b-8aae-75e4eb8e37fd",
+        "email": "Valentin_Moore28@roq.tech",
+        "firstName": "Mikel",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14725275",
+        "tenantId": null
+      },
+      {
+        "reference": "ef9ee9fe-b540-4635-b671-04b6c71bc9b6",
+        "email": "Raul88@roq.tech",
+        "firstName": "Albertha",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/163.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "financial_advisor": [
+      {
+        "id": "9a8efd6e-fad8-45e6-a415-120ac577f2d3",
+        "advisor_name": "Robert Johnson",
+        "contact_number": "1234567890",
+        "email": "robert.johnson@example.com",
+        "created_at": "2023-09-26T06:55:09.743Z",
+        "updated_at": "2023-09-25T14:54:17.307Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2bd78040-2f9e-4667-b5a3-0dc5a56461dc",
+        "advisor_name": "Jennifer Davis",
+        "contact_number": "0987654321",
+        "email": "jennifer.davis@example.com",
+        "created_at": "2023-09-25T15:55:41.018Z",
+        "updated_at": "2023-09-25T19:03:40.267Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cef08671-86f4-4b77-b798-fca55f726ecc",
+        "advisor_name": "Christopher Wilson",
+        "contact_number": "9876543210",
+        "email": "christopher.wilson@example.com",
+        "created_at": "2023-09-26T05:21:26.951Z",
+        "updated_at": "2023-09-26T05:12:54.074Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b707ce9f-4fa4-494a-8d6c-5536ad85f5ab",
+        "advisor_name": "Emily Anderson",
+        "contact_number": "0123456789",
+        "email": "emily.anderson@example.com",
+        "created_at": "2023-09-26T01:56:09.519Z",
+        "updated_at": "2023-09-25T17:45:17.155Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bbcd034e-70d1-4f13-90b3-7ae86f4c8578",
+        "advisor_name": "Daniel Thompson",
+        "contact_number": "5678901234",
+        "email": "daniel.thompson@example.com",
+        "created_at": "2023-09-25T13:07:18.240Z",
+        "updated_at": "2023-09-26T04:48:59.692Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "credit_card": [
+      {
+        "id": "5cab2d6d-a608-4f6a-a6b6-532f8de282a2",
+        "card_number": "1234567890123456",
+        "expiry_date": "2023-09-26T00:59:12.598Z",
+        "cvv": 6468,
+        "due_date": "2023-09-25T22:47:45.594Z",
+        "maximum_limit": 87987,
+        "created_at": "2023-09-25T12:29:26.385Z",
+        "updated_at": "2023-09-25T19:17:07.564Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "014b1c9c-98c6-49cd-84e9-6083b07277cf",
+        "card_number": "9876543210987654",
+        "expiry_date": "2023-09-26T01:03:51.186Z",
+        "cvv": 52733,
+        "due_date": "2023-09-26T05:31:19.430Z",
+        "maximum_limit": 10993,
+        "created_at": "2023-09-25T11:40:43.414Z",
+        "updated_at": "2023-09-26T01:41:32.116Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b217956-c5a8-4b22-bb9f-bbc7a2913eec",
+        "card_number": "5432109876543210",
+        "expiry_date": "2023-09-25T16:55:43.178Z",
+        "cvv": 2952,
+        "due_date": "2023-09-26T03:24:57.915Z",
+        "maximum_limit": 69604,
+        "created_at": "2023-09-25T17:18:47.704Z",
+        "updated_at": "2023-09-25T23:59:31.993Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23727583-0bfe-447e-b8bc-a52b3078cd64",
+        "card_number": "2468135791357924",
+        "expiry_date": "2023-09-25T13:25:00.670Z",
+        "cvv": 28604,
+        "due_date": "2023-09-25T20:46:40.554Z",
+        "maximum_limit": 78822,
+        "created_at": "2023-09-25T11:31:01.346Z",
+        "updated_at": "2023-09-25T20:10:59.679Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "017819da-c8f4-4503-bfbe-77fa001c3bb3",
+        "card_number": "8642097531092468",
+        "expiry_date": "2023-09-26T02:53:24.253Z",
+        "cvv": 62520,
+        "due_date": "2023-09-25T21:02:49.106Z",
+        "maximum_limit": 96652,
+        "created_at": "2023-09-26T04:46:24.037Z",
+        "updated_at": "2023-09-25T08:45:34.769Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "account": [
+      {
+        "id": "c0c5a2db-0013-4047-81d2-473577f56164",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 12703,
+        "created_at": "2023-09-25T11:54:14.132Z",
+        "updated_at": "2023-09-25T21:38:09.800Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4ad77af-6c94-43df-9a7f-6da3b573d813",
+        "account_number": "0987654321",
+        "account_type": "Checking",
+        "balance": 31082,
+        "created_at": "2023-09-26T04:53:05.679Z",
+        "updated_at": "2023-09-25T21:36:58.501Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c94c0864-ee43-4788-a945-e43d65189e09",
+        "account_number": "9876543210",
+        "account_type": "Investment",
+        "balance": 13917,
+        "created_at": "2023-09-25T07:59:36.602Z",
+        "updated_at": "2023-09-25T16:57:09.564Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8975b1de-8d29-449f-8d32-2138968658c4",
+        "account_number": "0123456789",
+        "account_type": "Credit",
+        "balance": 68976,
+        "created_at": "2023-09-26T04:18:24.716Z",
+        "updated_at": "2023-09-26T03:29:00.776Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c78f94e0-2694-4d22-962a-ddf0d9415eb5",
+        "account_number": "5678901234",
+        "account_type": "Loan",
+        "balance": 346,
+        "created_at": "2023-09-25T10:32:28.461Z",
+        "updated_at": "2023-09-25T10:46:34.260Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "65a75fd2-19bf-49e1-a50c-044f1181b815",
+        "transaction_type": "Deposit",
+        "amount": 84307,
+        "transaction_date": "2023-09-26T02:13:42.734Z",
+        "created_at": "2023-09-25T18:07:35.972Z",
+        "updated_at": "2023-09-25T11:12:04.067Z",
+        "account_id": "c0c5a2db-0013-4047-81d2-473577f56164"
+      },
+      {
+        "id": "48ce9d34-b70e-4a1e-9859-cb845d1317cc",
+        "transaction_type": "Withdrawal",
+        "amount": 79591,
+        "transaction_date": "2023-09-25T15:05:41.599Z",
+        "created_at": "2023-09-25T21:18:29.178Z",
+        "updated_at": "2023-09-25T09:00:25.911Z",
+        "account_id": "8975b1de-8d29-449f-8d32-2138968658c4"
+      },
+      {
+        "id": "db633f61-6c86-4213-addb-81b92cb7516b",
+        "transaction_type": "Transfer",
+        "amount": 13840,
+        "transaction_date": "2023-09-25T10:30:10.607Z",
+        "created_at": "2023-09-25T07:09:18.765Z",
+        "updated_at": "2023-09-26T03:14:40.085Z",
+        "account_id": "8975b1de-8d29-449f-8d32-2138968658c4"
+      },
+      {
+        "id": "4182e607-3553-4cb3-a36d-efdbd4179bbd",
+        "transaction_type": "Payment",
+        "amount": 16990,
+        "transaction_date": "2023-09-25T18:45:13.616Z",
+        "created_at": "2023-09-25T19:28:59.019Z",
+        "updated_at": "2023-09-25T08:04:33.664Z",
+        "account_id": "8975b1de-8d29-449f-8d32-2138968658c4"
+      },
+      {
+        "id": "7a526930-6361-4bdc-b381-9021d4c21a42",
+        "transaction_type": "Purchase",
+        "amount": 72806,
+        "transaction_date": "2023-09-25T23:30:22.477Z",
+        "created_at": "2023-09-25T20:16:45.450Z",
+        "updated_at": "2023-09-25T15:28:48.430Z",
+        "account_id": "8975b1de-8d29-449f-8d32-2138968658c4"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d6aa827a-5505-49a8-b81c-0659633d7d50",
+        "email": "Charlotte.Langosh26@roq.tech",
+        "firstName": "Savannah",
+        "lastName": "Lehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69244534",
+        "tenantId": null
+      },
+      {
+        "reference": "1a096d3c-3332-43c2-b984-03b932e5c433",
+        "email": "Baylee_Wisoky14@roq.tech",
+        "firstName": "Elnora",
+        "lastName": "Parisian",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56127546",
+        "tenantId": null
+      },
+      {
+        "reference": "8ec48104-28ab-4913-b77a-e91619f693b7",
+        "email": "Alford.Batz@roq.tech",
+        "firstName": "Roberta",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/460.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "79c4e778-9904-4168-bbad-0c594192e372",
+        "email": "Meda.Erdman44@roq.tech",
+        "firstName": "Omari",
+        "lastName": "Gislason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28101967",
+        "tenantId": null
+      },
+      {
+        "reference": "a1c6c7d1-10c9-478a-af2e-86b84dc80904",
+        "email": "Billie_Green@roq.tech",
+        "firstName": "Georgiana",
+        "lastName": "Cronin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78434956",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "financial_advisor": [
+      {
+        "id": "a36cd2da-9a8a-4190-b899-1123b4ef479a",
+        "advisor_name": "John Smith",
+        "contact_number": "1234567890",
+        "email": "john.smith@gmail.com",
+        "created_at": "2023-09-26T02:34:51.824Z",
+        "updated_at": "2023-09-25T22:09:50.219Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e2501129-71da-46dd-aad3-696d9605f92d",
+        "advisor_name": "Emily Davis",
+        "contact_number": "9876543210",
+        "email": "emily.davis@yahoo.com",
+        "created_at": "2023-09-25T19:53:38.773Z",
+        "updated_at": "2023-09-25T14:18:22.388Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de2d8d88-9736-487f-8c19-140b375ff3e1",
+        "advisor_name": "Michael Johnson",
+        "contact_number": "5555555555",
+        "email": "michael.johnson@hotmail.com",
+        "created_at": "2023-09-25T22:01:26.517Z",
+        "updated_at": "2023-09-26T04:07:41.242Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c6ec7ab-beda-4d3f-b7dc-69f5bfd89e8d",
+        "advisor_name": "Sarah Wilson",
+        "contact_number": "1111111111",
+        "email": "sarah.wilson@gmail.com",
+        "created_at": "2023-09-25T14:44:09.583Z",
+        "updated_at": "2023-09-26T03:41:27.712Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8bbe39b-d135-46cb-80ad-0e284335a5dd",
+        "advisor_name": "Robert Brown",
+        "contact_number": "9999999999",
+        "email": "robert.brown@yahoo.com",
+        "created_at": "2023-09-25T20:39:01.644Z",
+        "updated_at": "2023-09-25T12:33:22.400Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "credit_card": [
+      {
+        "id": "4e7bcac9-12a9-4930-8ce8-fc1ff5edf139",
+        "card_number": "1234 5678 9012 3456",
+        "expiry_date": "2023-09-26T04:38:55.337Z",
+        "cvv": 58441,
+        "due_date": "2023-09-25T17:38:19.625Z",
+        "maximum_limit": 70679,
+        "created_at": "2023-09-26T06:32:52.247Z",
+        "updated_at": "2023-09-25T10:45:33.009Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d78b5a2-85aa-4cf9-97cd-a562f9a9ba03",
+        "card_number": "9876 5432 1098 7654",
+        "expiry_date": "2023-09-25T09:50:43.342Z",
+        "cvv": 42120,
+        "due_date": "2023-09-25T07:52:21.989Z",
+        "maximum_limit": 43007,
+        "created_at": "2023-09-25T16:24:36.758Z",
+        "updated_at": "2023-09-25T10:40:02.479Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08c232ab-968d-4015-8a5b-ab8a5cca1db3",
+        "card_number": "5555 5555 5555 5555",
+        "expiry_date": "2023-09-26T03:17:48.919Z",
+        "cvv": 86738,
+        "due_date": "2023-09-25T22:44:28.622Z",
+        "maximum_limit": 24877,
+        "created_at": "2023-09-25T19:24:22.869Z",
+        "updated_at": "2023-09-25T14:22:12.564Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dbcb426e-ec0c-4fb7-8d8f-4d17181e1443",
+        "card_number": "1111 1111 1111 1111",
+        "expiry_date": "2023-09-26T00:02:31.675Z",
+        "cvv": 35578,
+        "due_date": "2023-09-25T08:21:23.265Z",
+        "maximum_limit": 7612,
+        "created_at": "2023-09-25T18:43:26.358Z",
+        "updated_at": "2023-09-26T00:41:54.043Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c52b4a0-f945-4c7a-8e8b-9d9d663233d0",
+        "card_number": "9999 9999 9999 9999",
+        "expiry_date": "2023-09-25T17:54:45.435Z",
+        "cvv": 19764,
+        "due_date": "2023-09-25T12:54:47.596Z",
+        "maximum_limit": 88957,
+        "created_at": "2023-09-25T20:42:47.042Z",
+        "updated_at": "2023-09-25T16:00:33.665Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "account": [
+      {
+        "id": "abc57ec7-39ad-4bd7-863d-689de5665b3e",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 77538,
+        "created_at": "2023-09-26T03:31:54.766Z",
+        "updated_at": "2023-09-26T00:40:30.031Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f30de23-2690-4490-b1a2-f50a727f582f",
+        "account_number": "9876543210",
+        "account_type": "Checking",
+        "balance": 29431,
+        "created_at": "2023-09-25T09:15:44.937Z",
+        "updated_at": "2023-09-25T16:34:01.578Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "977f09a5-b4ad-4e12-9a3e-088eb7fe6e6c",
+        "account_number": "5555555555",
+        "account_type": "Investment",
+        "balance": 20419,
+        "created_at": "2023-09-25T19:01:03.420Z",
+        "updated_at": "2023-09-25T09:02:28.665Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5e42298-41e1-48ad-b5fe-a56cf0f2fa9c",
+        "account_number": "1111111111",
+        "account_type": "Credit",
+        "balance": 2485,
+        "created_at": "2023-09-26T01:54:25.227Z",
+        "updated_at": "2023-09-25T17:53:24.996Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2492e03b-97e5-4e3c-8870-0c8dd26481db",
+        "account_number": "9999999999",
+        "account_type": "Loan",
+        "balance": 29011,
+        "created_at": "2023-09-25T21:21:04.167Z",
+        "updated_at": "2023-09-26T03:42:20.629Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "7571e15c-dcb6-418b-906b-6d2fa1378958",
+        "transaction_type": "Purchase",
+        "amount": 69263,
+        "transaction_date": "2023-09-25T17:26:31.049Z",
+        "created_at": "2023-09-25T11:24:04.617Z",
+        "updated_at": "2023-09-25T20:42:52.030Z",
+        "account_id": "977f09a5-b4ad-4e12-9a3e-088eb7fe6e6c"
+      },
+      {
+        "id": "1a870f51-2589-461a-9e8b-ca8c42f27671",
+        "transaction_type": "Deposit",
+        "amount": 6425,
+        "transaction_date": "2023-09-25T11:41:06.674Z",
+        "created_at": "2023-09-25T20:11:00.613Z",
+        "updated_at": "2023-09-26T01:43:37.095Z",
+        "account_id": "0f30de23-2690-4490-b1a2-f50a727f582f"
+      },
+      {
+        "id": "60b818e2-24a7-4dea-a392-65f072382f46",
+        "transaction_type": "Withdrawal",
+        "amount": 87831,
+        "transaction_date": "2023-09-25T19:55:53.634Z",
+        "created_at": "2023-09-26T06:00:43.373Z",
+        "updated_at": "2023-09-25T12:06:52.009Z",
+        "account_id": "977f09a5-b4ad-4e12-9a3e-088eb7fe6e6c"
+      },
+      {
+        "id": "262c0692-4ab6-48c0-ada0-66115bb91fa5",
+        "transaction_type": "Transfer",
+        "amount": 20453,
+        "transaction_date": "2023-09-25T23:09:46.929Z",
+        "created_at": "2023-09-25T10:47:44.152Z",
+        "updated_at": "2023-09-26T00:20:33.771Z",
+        "account_id": "977f09a5-b4ad-4e12-9a3e-088eb7fe6e6c"
+      },
+      {
+        "id": "1c07212a-7a46-4499-9779-c79873a74b22",
+        "transaction_type": "Payment",
+        "amount": 49813,
+        "transaction_date": "2023-09-25T13:05:11.221Z",
+        "created_at": "2023-09-26T03:04:11.225Z",
+        "updated_at": "2023-09-25T12:34:27.648Z",
+        "account_id": "0f30de23-2690-4490-b1a2-f50a727f582f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2f3999db-f79e-401d-a199-006d2f79745a",
+        "email": "Jade86@roq.tech",
+        "firstName": "Dawson",
+        "lastName": "Schiller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14100867",
+        "tenantId": null
+      },
+      {
+        "reference": "f211243e-8760-474e-b4bf-f5acb5320402",
+        "email": "Laurine25@roq.tech",
+        "firstName": "Brycen",
+        "lastName": "Johnston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27090530",
+        "tenantId": null
+      },
+      {
+        "reference": "24a79eb0-0626-4e80-bedd-300de12200f8",
+        "email": "Aimee.Sawayn36@roq.tech",
+        "firstName": "Leif",
+        "lastName": "Harber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30767691",
+        "tenantId": null
+      },
+      {
+        "reference": "d71fd5f3-f37b-42e1-89c5-7b82ea88a4c5",
+        "email": "Blaise51@roq.tech",
+        "firstName": "Carey",
+        "lastName": "Ziemann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61098920",
+        "tenantId": null
+      },
+      {
+        "reference": "19f78e0d-0401-4d33-a5c6-66344f6413d0",
+        "email": "Bernardo_Hauck@roq.tech",
+        "firstName": "Marlen",
+        "lastName": "Quigley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91971966",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "financial_advisor": [
+      {
+        "id": "3e73ce30-3b75-4203-9456-df1872124a10",
+        "advisor_name": "Mark Johnson",
+        "contact_number": "123-456-7890",
+        "email": "mark.johnson@gmail.com",
+        "created_at": "2023-09-25T12:08:07.540Z",
+        "updated_at": "2023-09-25T16:47:40.091Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed0dcc99-14e7-44e0-afe0-d59369b502e5",
+        "advisor_name": "Emily Davis",
+        "contact_number": "987-654-3210",
+        "email": "emily.davis@yahoo.com",
+        "created_at": "2023-09-25T18:38:28.883Z",
+        "updated_at": "2023-09-26T06:41:04.773Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "708715b1-4d2f-4ae7-ae62-841b521815a2",
+        "advisor_name": "Daniel Wilson",
+        "contact_number": "555-123-4567",
+        "email": "daniel.wilson@hotmail.com",
+        "created_at": "2023-09-25T10:57:06.028Z",
+        "updated_at": "2023-09-25T21:25:56.804Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b8a9111-d467-42c5-8368-f1ec6db28394",
+        "advisor_name": "Olivia Thompson",
+        "contact_number": "888-999-0000",
+        "email": "olivia.thompson@gmail.com",
+        "created_at": "2023-09-25T23:09:02.700Z",
+        "updated_at": "2023-09-25T17:08:52.161Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8a30b3d-8220-4dc9-9aa0-426c4be29004",
+        "advisor_name": "James Anderson",
+        "contact_number": "111-222-3333",
+        "email": "james.anderson@yahoo.com",
+        "created_at": "2023-09-26T03:54:33.717Z",
+        "updated_at": "2023-09-25T19:41:18.306Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "credit_card": [
+      {
+        "id": "387c471e-0ba9-4a9c-8e91-e3e9dcd1ee1b",
+        "card_number": "1234 5678 9012 3456",
+        "expiry_date": "2023-09-25T12:43:39.049Z",
+        "cvv": 54466,
+        "due_date": "2023-09-26T00:20:56.649Z",
+        "maximum_limit": 95978,
+        "created_at": "2023-09-26T04:26:00.829Z",
+        "updated_at": "2023-09-26T06:50:39.640Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ad81e43-3dc9-4b72-8eb0-691ece8721f2",
+        "card_number": "9876 5432 1098 7654",
+        "expiry_date": "2023-09-25T12:05:22.268Z",
+        "cvv": 61965,
+        "due_date": "2023-09-25T21:43:10.039Z",
+        "maximum_limit": 82438,
+        "created_at": "2023-09-26T05:23:55.110Z",
+        "updated_at": "2023-09-25T08:10:12.714Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84b0f384-34ad-4143-a279-63a42592cdb2",
+        "card_number": "5555 1234 5678 9012",
+        "expiry_date": "2023-09-26T05:06:07.450Z",
+        "cvv": 41013,
+        "due_date": "2023-09-25T08:10:50.700Z",
+        "maximum_limit": 38643,
+        "created_at": "2023-09-25T21:25:53.305Z",
+        "updated_at": "2023-09-26T04:47:11.581Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41438762-60fd-4e17-ae7d-4b83a134ab75",
+        "card_number": "8888 9999 0000 1111",
+        "expiry_date": "2023-09-25T15:19:13.263Z",
+        "cvv": 64929,
+        "due_date": "2023-09-25T20:09:00.357Z",
+        "maximum_limit": 65121,
+        "created_at": "2023-09-26T00:35:26.582Z",
+        "updated_at": "2023-09-26T05:04:29.953Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3bdf6098-33aa-468b-86ac-346fb055d1fa",
+        "card_number": "1111 2222 3333 4444",
+        "expiry_date": "2023-09-25T19:44:41.361Z",
+        "cvv": 64121,
+        "due_date": "2023-09-25T14:39:06.586Z",
+        "maximum_limit": 3378,
+        "created_at": "2023-09-26T05:05:22.821Z",
+        "updated_at": "2023-09-26T05:28:34.455Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "account": [
+      {
+        "id": "87d75fed-8206-447e-8932-9de00b72d733",
+        "account_number": "1234567890",
+        "account_type": "Checking",
+        "balance": 56496,
+        "created_at": "2023-09-25T08:32:23.072Z",
+        "updated_at": "2023-09-25T19:46:37.405Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b35bf284-409b-4a80-baf6-b8bc47dc4a29",
+        "account_number": "9876543210",
+        "account_type": "Savings",
+        "balance": 33505,
+        "created_at": "2023-09-25T14:36:31.116Z",
+        "updated_at": "2023-09-25T12:50:45.862Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6db8b45a-910c-4d39-a903-4357bcbedbe7",
+        "account_number": "5555123456",
+        "account_type": "Investment",
+        "balance": 56299,
+        "created_at": "2023-09-26T02:47:46.396Z",
+        "updated_at": "2023-09-25T15:27:47.521Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45be1509-a92c-4039-a6dc-1476823c6fdd",
+        "account_number": "8888999900",
+        "account_type": "Credit Card",
+        "balance": 94893,
+        "created_at": "2023-09-25T07:40:53.344Z",
+        "updated_at": "2023-09-25T11:02:21.199Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6d068264-3986-4de9-ade5-c59432e495cd",
+        "account_number": "1111222233",
+        "account_type": "Loan",
+        "balance": 51608,
+        "created_at": "2023-09-25T10:57:25.614Z",
+        "updated_at": "2023-09-26T02:16:13.811Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "b3246d6b-d2c0-4c5a-accd-af55693619d8",
+        "transaction_type": "Deposit",
+        "amount": 11691,
+        "transaction_date": "2023-09-25T11:23:15.292Z",
+        "created_at": "2023-09-25T18:50:47.742Z",
+        "updated_at": "2023-09-25T11:40:56.744Z",
+        "account_id": "b35bf284-409b-4a80-baf6-b8bc47dc4a29"
+      },
+      {
+        "id": "606ed238-3e5b-4c3d-a92c-623bec231be7",
+        "transaction_type": "Withdrawal",
+        "amount": 77035,
+        "transaction_date": "2023-09-25T21:26:45.953Z",
+        "created_at": "2023-09-25T09:23:11.086Z",
+        "updated_at": "2023-09-26T03:42:59.419Z",
+        "account_id": "87d75fed-8206-447e-8932-9de00b72d733"
+      },
+      {
+        "id": "c79d7fd9-93e2-40d7-b33f-d1e05b8e859f",
+        "transaction_type": "Transfer",
+        "amount": 69626,
+        "transaction_date": "2023-09-25T12:05:03.846Z",
+        "created_at": "2023-09-26T00:50:50.674Z",
+        "updated_at": "2023-09-26T01:39:34.128Z",
+        "account_id": "45be1509-a92c-4039-a6dc-1476823c6fdd"
+      },
+      {
+        "id": "466ac9b0-e87f-4eb0-a73e-ffa1e13c69e6",
+        "transaction_type": "Payment",
+        "amount": 90583,
+        "transaction_date": "2023-09-25T14:52:16.532Z",
+        "created_at": "2023-09-26T02:24:27.148Z",
+        "updated_at": "2023-09-25T21:46:04.191Z",
+        "account_id": "87d75fed-8206-447e-8932-9de00b72d733"
+      },
+      {
+        "id": "d925aba5-6974-4e27-ba62-db92cc33e150",
+        "transaction_type": "Purchase",
+        "amount": 59189,
+        "transaction_date": "2023-09-25T18:28:39.986Z",
+        "created_at": "2023-09-26T06:14:23.411Z",
+        "updated_at": "2023-09-25T11:39:55.080Z",
+        "account_id": "87d75fed-8206-447e-8932-9de00b72d733"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f9394753-56ce-48a8-bed9-738cb6637c75",
+        "email": "Alana.Lakin18@roq.tech",
+        "firstName": "King",
+        "lastName": "Yost",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1092.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "127a274c-f70d-4ea2-840c-ba26c24f3209",
+        "email": "Donnie_Walker@roq.tech",
+        "firstName": "Alessandro",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82950514",
+        "tenantId": null
+      },
+      {
+        "reference": "29d325b8-efe9-417c-b535-6236b51581f1",
+        "email": "Kristofer5@roq.tech",
+        "firstName": "Hailey",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18206019",
+        "tenantId": null
+      },
+      {
+        "reference": "ecc129b6-645e-4254-aef8-1bb49b1098a0",
+        "email": "Carmine19@roq.tech",
+        "firstName": "Zachariah",
+        "lastName": "Strosin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62620167",
+        "tenantId": null
+      },
+      {
+        "reference": "72097cbd-9336-44e1-8744-86173dbfff27",
+        "email": "Camden.Maggio@roq.tech",
+        "firstName": "Cyrus",
+        "lastName": "Bahringer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/703.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "financial_advisor": [
+      {
+        "id": "7082b7a7-c296-4a6a-bde9-c21d83d15a63",
+        "advisor_name": "Emily Thompson",
+        "contact_number": "123-456-7890",
+        "email": "emily.thompson@advisor.com",
+        "created_at": "2023-09-26T02:10:18.625Z",
+        "updated_at": "2023-09-25T22:07:44.259Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21e5cdc5-01ec-4c44-ade7-b28da90502ab",
+        "advisor_name": "David Davis",
+        "contact_number": "987-654-3210",
+        "email": "david.davis@advisor.com",
+        "created_at": "2023-09-25T12:54:22.539Z",
+        "updated_at": "2023-09-25T15:03:25.043Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f705894-6370-4067-b005-f2344821b024",
+        "advisor_name": "Jennifer Lee",
+        "contact_number": "555-123-4567",
+        "email": "jennifer.lee@advisor.com",
+        "created_at": "2023-09-25T17:11:04.930Z",
+        "updated_at": "2023-09-25T10:14:31.868Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e135ee88-8341-442c-acd4-2895ba15da62",
+        "advisor_name": "Matthew Harris",
+        "contact_number": "888-999-0000",
+        "email": "matthew.harris@advisor.com",
+        "created_at": "2023-09-26T01:46:33.350Z",
+        "updated_at": "2023-09-25T13:03:24.259Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22ec8f42-a088-42fb-a613-c6e5733232eb",
+        "advisor_name": "Olivia Martinez",
+        "contact_number": "111-222-3333",
+        "email": "olivia.martinez@advisor.com",
+        "created_at": "2023-09-25T12:22:49.073Z",
+        "updated_at": "2023-09-25T14:36:53.057Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "credit_card": [
+      {
+        "id": "e6c06baa-671d-4199-a94c-4aa058fed481",
+        "card_number": "1234 5678 9012 3456",
+        "expiry_date": "2023-09-26T00:01:16.049Z",
+        "cvv": 55414,
+        "due_date": "2023-09-26T05:51:09.731Z",
+        "maximum_limit": 34176,
+        "created_at": "2023-09-25T07:13:38.463Z",
+        "updated_at": "2023-09-25T10:38:47.725Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d78adf9d-f1d5-46e2-8695-e3938e6886b3",
+        "card_number": "9876 5432 1098 7654",
+        "expiry_date": "2023-09-26T04:25:48.567Z",
+        "cvv": 42153,
+        "due_date": "2023-09-25T09:53:31.565Z",
+        "maximum_limit": 2382,
+        "created_at": "2023-09-25T22:12:38.582Z",
+        "updated_at": "2023-09-26T02:03:20.144Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4556ed03-f417-433d-b089-787ea14de2ec",
+        "card_number": "5555 1234 5678 9012",
+        "expiry_date": "2023-09-25T13:12:28.964Z",
+        "cvv": 15187,
+        "due_date": "2023-09-25T11:48:55.112Z",
+        "maximum_limit": 78750,
+        "created_at": "2023-09-25T13:01:52.242Z",
+        "updated_at": "2023-09-25T13:09:23.305Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a2b359c-d647-49fd-8f73-87d3970427ab",
+        "card_number": "8888 9999 0000 1111",
+        "expiry_date": "2023-09-25T23:14:04.687Z",
+        "cvv": 21537,
+        "due_date": "2023-09-25T18:24:15.794Z",
+        "maximum_limit": 46795,
+        "created_at": "2023-09-26T00:26:01.755Z",
+        "updated_at": "2023-09-25T18:47:55.287Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab92b840-bd50-447f-8f36-43fa6a3bc73a",
+        "card_number": "1111 2222 3333 4444",
+        "expiry_date": "2023-09-25T23:10:16.155Z",
+        "cvv": 99823,
+        "due_date": "2023-09-25T22:26:13.813Z",
+        "maximum_limit": 65542,
+        "created_at": "2023-09-26T03:19:06.198Z",
+        "updated_at": "2023-09-26T02:54:07.271Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "account": [
+      {
+        "id": "bc83a52c-e864-47d2-9404-39bc1c9ac83f",
+        "account_number": "1234567890",
+        "account_type": "Checking",
+        "balance": 68852,
+        "created_at": "2023-09-25T21:31:46.291Z",
+        "updated_at": "2023-09-26T06:31:08.791Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dbf2d705-436c-4c28-b6eb-670fafb189f2",
+        "account_number": "9876543210",
+        "account_type": "Savings",
+        "balance": 69382,
+        "created_at": "2023-09-25T12:52:55.166Z",
+        "updated_at": "2023-09-25T12:24:58.811Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f6b3d5b-ad1c-43c9-9133-206f042d3063",
+        "account_number": "5555123456",
+        "account_type": "Money Market",
+        "balance": 45991,
+        "created_at": "2023-09-25T07:10:05.743Z",
+        "updated_at": "2023-09-25T19:13:35.354Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9121bc8e-2cff-4412-8843-a3ac87ff257d",
+        "account_number": "8888999900",
+        "account_type": "CD",
+        "balance": 40100,
+        "created_at": "2023-09-25T11:20:31.597Z",
+        "updated_at": "2023-09-26T04:24:13.473Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81b029a7-9e07-47c3-b7d4-a80fad713e28",
+        "account_number": "1111222233",
+        "account_type": "IRA",
+        "balance": 47542,
+        "created_at": "2023-09-25T11:40:31.199Z",
+        "updated_at": "2023-09-25T10:39:35.029Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "29d1063d-80d0-4e57-b1e0-e1d44be0c5f6",
+        "transaction_type": "Deposit",
+        "amount": 36790,
+        "transaction_date": "2023-09-25T16:37:57.538Z",
+        "created_at": "2023-09-25T16:57:10.933Z",
+        "updated_at": "2023-09-25T19:08:10.855Z",
+        "account_id": "9121bc8e-2cff-4412-8843-a3ac87ff257d"
+      },
+      {
+        "id": "ed5a1465-1390-4be7-a597-a149f585e682",
+        "transaction_type": "Withdrawal",
+        "amount": 33777,
+        "transaction_date": "2023-09-25T13:41:52.580Z",
+        "created_at": "2023-09-26T00:57:18.409Z",
+        "updated_at": "2023-09-25T23:07:17.305Z",
+        "account_id": "9121bc8e-2cff-4412-8843-a3ac87ff257d"
+      },
+      {
+        "id": "5f3a5f1d-c72d-4507-b631-ba51690eed16",
+        "transaction_type": "Transfer",
+        "amount": 1402,
+        "transaction_date": "2023-09-26T02:14:20.383Z",
+        "created_at": "2023-09-25T20:00:44.772Z",
+        "updated_at": "2023-09-25T11:05:32.221Z",
+        "account_id": "9121bc8e-2cff-4412-8843-a3ac87ff257d"
+      },
+      {
+        "id": "39147cfe-41c6-48f1-966b-4ca75c23d2ad",
+        "transaction_type": "Payment",
+        "amount": 82710,
+        "transaction_date": "2023-09-25T21:00:40.025Z",
+        "created_at": "2023-09-25T10:29:55.317Z",
+        "updated_at": "2023-09-25T16:28:13.845Z",
+        "account_id": "9121bc8e-2cff-4412-8843-a3ac87ff257d"
+      },
+      {
+        "id": "a6201176-57b2-4e58-8996-9dc48ac6fbbe",
+        "transaction_type": "Purchase",
+        "amount": 74601,
+        "transaction_date": "2023-09-26T03:51:50.839Z",
+        "created_at": "2023-09-25T16:53:52.569Z",
+        "updated_at": "2023-09-25T20:50:31.369Z",
+        "account_id": "5f6b3d5b-ad1c-43c9-9133-206f042d3063"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1b8a2062-a773-42f7-98da-58b6bf843f11",
+        "email": "Harley.Harber40@roq.tech",
+        "firstName": "Bill",
+        "lastName": "Kshlerin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2607055",
+        "tenantId": null
+      },
+      {
+        "reference": "c7a3a5ac-e1eb-4307-9868-5d3e87fc762b",
+        "email": "Trinity95@roq.tech",
+        "firstName": "Sister",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42020485",
+        "tenantId": null
+      },
+      {
+        "reference": "d3ab4ff4-c464-42d6-8e79-ff724ad0c385",
+        "email": "Idell.Mayert57@roq.tech",
+        "firstName": "Nolan",
+        "lastName": "Bartoletti",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52049692",
+        "tenantId": null
+      },
+      {
+        "reference": "67ed0079-7fa6-477c-b7f9-f062e922f911",
+        "email": "Vicky16@roq.tech",
+        "firstName": "Rebeka",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/359.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aac8f0c1-3c24-4a65-95c4-35b5d519d41b",
+        "email": "Leila84@roq.tech",
+        "firstName": "Clarissa",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22707319",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "financial_advisor": [
+      {
+        "id": "5a4ca3ac-56a5-4c74-baa1-3d696a44561a",
+        "advisor_name": "John Smith",
+        "contact_number": "1234567890",
+        "email": "john.smith@gmail.com",
+        "created_at": "2023-09-26T02:36:53.584Z",
+        "updated_at": "2023-09-25T16:19:51.901Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9af4ce41-c847-4fde-aa46-18a6ccb843bf",
+        "advisor_name": "Emily Johnson",
+        "contact_number": "9876543210",
+        "email": "emily.johnson@yahoo.com",
+        "created_at": "2023-09-25T17:12:47.848Z",
+        "updated_at": "2023-09-25T17:11:44.621Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a93bedc1-4c28-4b14-9c6d-ee06a3429445",
+        "advisor_name": "David Brown",
+        "contact_number": "4567891230",
+        "email": "david.brown@hotmail.com",
+        "created_at": "2023-09-25T08:32:59.743Z",
+        "updated_at": "2023-09-25T11:18:31.905Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d7ddb5c-5149-4a2e-a979-5de38d57b508",
+        "advisor_name": "Sarah Wilson",
+        "contact_number": "7891234560",
+        "email": "sarah.wilson@gmail.com",
+        "created_at": "2023-09-26T01:26:43.484Z",
+        "updated_at": "2023-09-25T08:24:00.195Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a69407a4-b3bf-495b-b0b2-3b4149f57615",
+        "advisor_name": "Michael Davis",
+        "contact_number": "3216549870",
+        "email": "michael.davis@yahoo.com",
+        "created_at": "2023-09-26T02:12:52.448Z",
+        "updated_at": "2023-09-26T06:07:33.680Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "credit_card": [
+      {
+        "id": "f88b1a90-f769-4b45-9578-888a1026b202",
+        "card_number": "1234 5678 9012 3456",
+        "expiry_date": "2023-09-25T23:42:58.924Z",
+        "cvv": 10746,
+        "due_date": "2023-09-25T13:34:37.161Z",
+        "maximum_limit": 861,
+        "created_at": "2023-09-25T13:08:33.256Z",
+        "updated_at": "2023-09-25T10:29:19.742Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "84eeb62c-e991-4b1c-8252-21046d2136eb",
+        "card_number": "9876 5432 1098 7654",
+        "expiry_date": "2023-09-25T16:24:45.917Z",
+        "cvv": 86297,
+        "due_date": "2023-09-25T17:43:03.027Z",
+        "maximum_limit": 25253,
+        "created_at": "2023-09-26T00:22:28.687Z",
+        "updated_at": "2023-09-26T01:08:12.040Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "982b9c6e-f0b3-4967-ba35-8672466c39e6",
+        "card_number": "4567 8901 2345 6789",
+        "expiry_date": "2023-09-26T05:03:17.361Z",
+        "cvv": 97196,
+        "due_date": "2023-09-25T22:12:25.263Z",
+        "maximum_limit": 27365,
+        "created_at": "2023-09-25T07:12:48.011Z",
+        "updated_at": "2023-09-25T10:22:03.331Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "caf3f889-cd13-4d3f-9e84-86e496a5f85a",
+        "card_number": "7890 1234 5678 9012",
+        "expiry_date": "2023-09-26T01:27:39.111Z",
+        "cvv": 20387,
+        "due_date": "2023-09-25T09:26:00.754Z",
+        "maximum_limit": 363,
+        "created_at": "2023-09-25T23:26:09.160Z",
+        "updated_at": "2023-09-25T08:17:24.622Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bef6797b-6f9f-428a-9ec1-abcd3f52d6fe",
+        "card_number": "3210 9876 5432 1098",
+        "expiry_date": "2023-09-25T15:09:31.700Z",
+        "cvv": 39546,
+        "due_date": "2023-09-25T15:47:02.676Z",
+        "maximum_limit": 20032,
+        "created_at": "2023-09-25T08:40:41.520Z",
+        "updated_at": "2023-09-25T10:25:44.933Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "account": [
+      {
+        "id": "3df8d1a2-74d2-4686-9556-0b1ae4e12f27",
+        "account_number": "1234567890",
+        "account_type": "Checking",
+        "balance": 72537,
+        "created_at": "2023-09-25T14:02:12.351Z",
+        "updated_at": "2023-09-25T16:14:22.954Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e1ff2ec2-94a8-4133-83ba-95ca39890876",
+        "account_number": "9876543210",
+        "account_type": "Savings",
+        "balance": 10727,
+        "created_at": "2023-09-26T00:56:34.151Z",
+        "updated_at": "2023-09-25T08:28:20.225Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77fb9780-6aea-4136-987f-7be41bf63c08",
+        "account_number": "4567891230",
+        "account_type": "Credit Card",
+        "balance": 95562,
+        "created_at": "2023-09-25T09:00:03.830Z",
+        "updated_at": "2023-09-25T08:55:19.703Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "889c336f-9f65-4928-ad7c-aad648b50ba9",
+        "account_number": "7891234560",
+        "account_type": "Investment",
+        "balance": 96451,
+        "created_at": "2023-09-25T23:44:19.302Z",
+        "updated_at": "2023-09-25T13:04:48.445Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b85a04e-c24f-44a3-93fa-22b380bdf61d",
+        "account_number": "3216549870",
+        "account_type": "Loan",
+        "balance": 42386,
+        "created_at": "2023-09-25T14:39:34.927Z",
+        "updated_at": "2023-09-25T11:00:23.927Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "09adf235-f570-4dba-bf7a-d565455d90f0",
+        "transaction_type": "Deposit",
+        "amount": 70435,
+        "transaction_date": "2023-09-26T06:51:26.575Z",
+        "created_at": "2023-09-25T18:56:06.365Z",
+        "updated_at": "2023-09-25T16:18:40.691Z",
+        "account_id": "5b85a04e-c24f-44a3-93fa-22b380bdf61d"
+      },
+      {
+        "id": "d1ac7cdf-588a-40ce-b734-674fe2acb6f4",
+        "transaction_type": "Withdrawal",
+        "amount": 77766,
+        "transaction_date": "2023-09-25T11:20:45.604Z",
+        "created_at": "2023-09-26T01:57:47.757Z",
+        "updated_at": "2023-09-26T02:29:42.255Z",
+        "account_id": "5b85a04e-c24f-44a3-93fa-22b380bdf61d"
+      },
+      {
+        "id": "4d094dee-bb55-407a-9569-27d7d4ccc6fb",
+        "transaction_type": "Transfer",
+        "amount": 45905,
+        "transaction_date": "2023-09-26T01:19:11.291Z",
+        "created_at": "2023-09-25T14:15:15.077Z",
+        "updated_at": "2023-09-25T21:51:40.751Z",
+        "account_id": "889c336f-9f65-4928-ad7c-aad648b50ba9"
+      },
+      {
+        "id": "4eb6f38f-d7f8-467c-84c8-69aab683d887",
+        "transaction_type": "Payment",
+        "amount": 28204,
+        "transaction_date": "2023-09-25T20:57:19.409Z",
+        "created_at": "2023-09-26T03:32:51.252Z",
+        "updated_at": "2023-09-25T13:49:54.613Z",
+        "account_id": "889c336f-9f65-4928-ad7c-aad648b50ba9"
+      },
+      {
+        "id": "4fa89a8d-a8d5-4669-9e04-155bcbc50146",
+        "transaction_type": "Purchase",
+        "amount": 91309,
+        "transaction_date": "2023-09-26T01:22:02.477Z",
+        "created_at": "2023-09-25T19:14:58.412Z",
+        "updated_at": "2023-09-25T16:26:03.659Z",
+        "account_id": "3df8d1a2-74d2-4686-9556-0b1ae4e12f27"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "44bd3244-5c59-4d17-b567-86e68ff54ef8",
+        "email": "Ericka_Skiles87@roq.tech",
+        "firstName": "Alysa",
+        "lastName": "Gleason",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/539.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ea313f7e-cd99-4abc-8cec-c0e5982dce9f",
+        "email": "Jettie_Schultz85@roq.tech",
+        "firstName": "Keyon",
+        "lastName": "Dare",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/529.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e2a8fd7b-b470-4fa4-ae8d-87ab0752ae3e",
+        "email": "Donny_Berge@roq.tech",
+        "firstName": "Reid",
+        "lastName": "Schneider",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/719.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0d21f203-06f0-4eb2-930b-51872cd83647",
+        "email": "Cyril.Lehner@roq.tech",
+        "firstName": "Reyes",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/85.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4910425c-0a60-4463-8bea-94b1196ddde7",
+        "email": "Rodolfo_Rolfson-Olson@roq.tech",
+        "firstName": "Albin",
+        "lastName": "Casper",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98406134",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "financial_advisor": [
+      {
+        "id": "d0655142-a630-4e26-bc77-f0faab82861f",
+        "advisor_name": "John Smith",
+        "contact_number": "1234567890",
+        "email": "john.smith@advisor.com",
+        "created_at": "2023-09-25T19:36:45.890Z",
+        "updated_at": "2023-09-25T20:07:52.959Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17b6a77e-6127-486e-9db7-7dc7d4a0ea41",
+        "advisor_name": "Emily Johnson",
+        "contact_number": "9876543210",
+        "email": "emily.johnson@advisor.com",
+        "created_at": "2023-09-25T16:26:48.020Z",
+        "updated_at": "2023-09-25T22:24:44.285Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca16a981-b18c-493d-876d-12c0e42fa19f",
+        "advisor_name": "Michael Davis",
+        "contact_number": "5555555555",
+        "email": "michael.davis@advisor.com",
+        "created_at": "2023-09-25T15:53:12.438Z",
+        "updated_at": "2023-09-25T08:20:21.153Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4603bf9-f419-48a0-b6dc-eafd554dc15f",
+        "advisor_name": "Sarah Wilson",
+        "contact_number": "1111111111",
+        "email": "sarah.wilson@advisor.com",
+        "created_at": "2023-09-25T15:07:04.706Z",
+        "updated_at": "2023-09-25T15:42:00.333Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41dcbbfb-485c-4bd5-a3ff-108fdbc41fd2",
+        "advisor_name": "David Thompson",
+        "contact_number": "9999999999",
+        "email": "david.thompson@advisor.com",
+        "created_at": "2023-09-25T21:31:30.127Z",
+        "updated_at": "2023-09-25T15:39:54.833Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "credit_card": [
+      {
+        "id": "7acecd04-6ab1-4628-9991-1421973ff548",
+        "card_number": "1234 5678 9012 3456",
+        "expiry_date": "2023-09-25T20:44:13.074Z",
+        "cvv": 27168,
+        "due_date": "2023-09-26T03:33:24.822Z",
+        "maximum_limit": 97688,
+        "created_at": "2023-09-25T17:05:53.852Z",
+        "updated_at": "2023-09-25T23:54:32.179Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e65f4423-bb3f-4409-92bd-0e051313f996",
+        "card_number": "9876 5432 1098 7654",
+        "expiry_date": "2023-09-25T08:05:01.517Z",
+        "cvv": 92487,
+        "due_date": "2023-09-25T13:21:09.201Z",
+        "maximum_limit": 11162,
+        "created_at": "2023-09-25T19:42:51.737Z",
+        "updated_at": "2023-09-25T19:12:22.910Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed141bdd-fd5d-4f68-a73d-708d2f97ef71",
+        "card_number": "5555 5555 5555 5555",
+        "expiry_date": "2023-09-25T17:15:43.923Z",
+        "cvv": 1472,
+        "due_date": "2023-09-26T04:50:12.816Z",
+        "maximum_limit": 64357,
+        "created_at": "2023-09-25T19:24:11.249Z",
+        "updated_at": "2023-09-26T06:20:37.454Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7b5e12a-dd33-4c39-a2ac-bd15c49450e2",
+        "card_number": "1111 1111 1111 1111",
+        "expiry_date": "2023-09-26T00:57:25.287Z",
+        "cvv": 68200,
+        "due_date": "2023-09-25T07:33:29.967Z",
+        "maximum_limit": 58538,
+        "created_at": "2023-09-25T07:43:58.507Z",
+        "updated_at": "2023-09-25T23:28:57.092Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf51ad59-8f6e-4794-ac27-3394347c6c0d",
+        "card_number": "9999 9999 9999 9999",
+        "expiry_date": "2023-09-26T06:46:34.694Z",
+        "cvv": 26614,
+        "due_date": "2023-09-26T06:24:03.584Z",
+        "maximum_limit": 89639,
+        "created_at": "2023-09-25T12:38:09.325Z",
+        "updated_at": "2023-09-25T23:20:47.609Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "account": [
+      {
+        "id": "44c3fa4f-d12e-48f0-b527-4c57fa1dedf0",
+        "account_number": "1234567890",
+        "account_type": "Savings",
+        "balance": 13132,
+        "created_at": "2023-09-25T20:22:16.273Z",
+        "updated_at": "2023-09-26T02:41:28.597Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83cf60bd-0a4c-49ab-b4bc-a0d1aa85503c",
+        "account_number": "9876543210",
+        "account_type": "Checking",
+        "balance": 20833,
+        "created_at": "2023-09-25T11:36:24.077Z",
+        "updated_at": "2023-09-25T11:41:45.612Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fba66c9-c2d5-4834-aaf1-7f978f12c0e9",
+        "account_number": "5555555555",
+        "account_type": "Investment",
+        "balance": 59750,
+        "created_at": "2023-09-25T07:22:36.113Z",
+        "updated_at": "2023-09-25T19:44:53.484Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d38b2999-a8e5-49cb-9296-c21fe6e39c78",
+        "account_number": "1111111111",
+        "account_type": "Credit",
+        "balance": 55413,
+        "created_at": "2023-09-25T07:11:09.563Z",
+        "updated_at": "2023-09-25T15:38:57.829Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0fdd5b70-1a51-410d-9fea-c4ddfebe7736",
+        "account_number": "9999999999",
+        "account_type": "Loan",
+        "balance": 67570,
+        "created_at": "2023-09-26T01:23:10.316Z",
+        "updated_at": "2023-09-25T07:59:52.162Z",
+        "bank_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "437d51e7-ae4c-4757-84c7-818165952426",
+        "transaction_type": "Deposit",
+        "amount": 47433,
+        "transaction_date": "2023-09-26T05:22:39.907Z",
+        "created_at": "2023-09-25T11:34:45.571Z",
+        "updated_at": "2023-09-25T14:04:15.892Z",
+        "account_id": "d38b2999-a8e5-49cb-9296-c21fe6e39c78"
+      },
+      {
+        "id": "e0ae1e62-1816-4a52-874b-c854a22c3cd9",
+        "transaction_type": "Withdrawal",
+        "amount": 50519,
+        "transaction_date": "2023-09-26T01:50:20.340Z",
+        "created_at": "2023-09-25T09:22:14.012Z",
+        "updated_at": "2023-09-25T16:24:56.936Z",
+        "account_id": "d38b2999-a8e5-49cb-9296-c21fe6e39c78"
+      },
+      {
+        "id": "6a9c92ab-a196-4007-957e-174079bf4e50",
+        "transaction_type": "Transfer",
+        "amount": 69518,
+        "transaction_date": "2023-09-26T01:36:08.038Z",
+        "created_at": "2023-09-25T21:06:46.165Z",
+        "updated_at": "2023-09-26T05:28:34.202Z",
+        "account_id": "83cf60bd-0a4c-49ab-b4bc-a0d1aa85503c"
+      },
+      {
+        "id": "b5dc2178-5842-4e44-967c-f9ec2c4d6d5d",
+        "transaction_type": "Payment",
+        "amount": 58078,
+        "transaction_date": "2023-09-26T04:10:16.650Z",
+        "created_at": "2023-09-25T13:17:24.361Z",
+        "updated_at": "2023-09-26T04:35:15.163Z",
+        "account_id": "44c3fa4f-d12e-48f0-b527-4c57fa1dedf0"
+      },
+      {
+        "id": "62104697-4a7c-4d78-a96b-3e4f98c697b5",
+        "transaction_type": "Purchase",
+        "amount": 71679,
+        "transaction_date": "2023-09-25T21:18:36.895Z",
+        "created_at": "2023-09-25T18:34:35.417Z",
+        "updated_at": "2023-09-26T02:20:18.183Z",
+        "account_id": "9fba66c9-c2d5-4834-aaf1-7f978f12c0e9"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9ddeb5e3-e8ec-4c6c-86bc-5ec476095088",
+        "email": "Kieran_Gulgowski49@roq.tech",
+        "firstName": "Joaquin",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/141.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cfa57923-1683-421f-b394-58e069782554",
+        "email": "Josefa_Williamson7@roq.tech",
+        "firstName": "Asa",
+        "lastName": "Beatty",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/435.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a68f2cb4-03c6-4157-a0aa-3167d7d1a52d",
+        "email": "Katherine57@roq.tech",
+        "firstName": "Ashly",
+        "lastName": "Durgan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47609218",
+        "tenantId": null
+      },
+      {
+        "reference": "2cfbcb7f-3b04-4319-b374-7c79d8f6a6d0",
+        "email": "Cornelius_Dare@roq.tech",
+        "firstName": "Ed",
+        "lastName": "Robel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/156.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cd9eee42-2837-4231-b03c-ecdce40f9cfb",
+        "email": "Gail97@roq.tech",
+        "firstName": "Jaclyn",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/917.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
